@@ -2,12 +2,16 @@
   <div id="header" class="py-3">
     <nav class="container">
       <div class="row justify-content-between align-items-center">
-        <a class="nav-title" href="/">Cam Alert</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <download-button />
-          </li>
-        </ul>
+        <div class="col">
+          <a class="nav-title" href="/">Cam Alert</a>
+        </div>
+        <div class="col-auto">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <download-button />
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
