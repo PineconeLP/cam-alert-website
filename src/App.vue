@@ -30,5 +30,8 @@ export default {
   color: #2c3e50;
 
   --color-primary: #607ce1;
+
+  --color-secondary-light: #72bd87;
+  --color-secondary-dark: #4a9960;
 }
 </style>
