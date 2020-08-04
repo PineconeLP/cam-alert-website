@@ -1,11 +1,11 @@
 <template>
-  <div id="root" class="py-3">
+  <div id="header" class="py-3">
     <nav class="container">
       <div class="row justify-content-between align-items-center">
-        <a class="nav-title" href="#">Cam Alert</a>
+        <a class="nav-title" href="/">Cam Alert</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <download-button class="nav-link" />
+            <download-button />
           </li>
         </ul>
       </div>
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style scoped>
-#root {
+#header {
   background-color: var(--color-primary);
   color: white;
 }

@@ -25,6 +25,7 @@ export default {
 
 #app {
   font-family: "Ropa Sans", sans-serif;
+  font-size: var(--font-small);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -33,5 +34,10 @@ export default {
 
   --color-secondary-light: #72bd87;
   --color-secondary-dark: #4a9960;
+
+  --font-small: 1rem;
+  --font-medium: 1.5rem;
+  --font-large: 2rem;
+  --font-xlarge: 3rem;
 }
 </style>
