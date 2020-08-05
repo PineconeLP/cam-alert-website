@@ -30,9 +30,11 @@
             <div class="mt-3 embed-responsive embed-responsive-16by9">
               <iframe
                 class="embed-responsive-item"
-                src="https://www.youtube.com/embed/raYpdstVNLI"
+                src="https://www.youtube.com/embed/NpEaa2P7qZI"
                 frameborder="0"
+                controls="0"
                 allowfullscreen
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>
             </div>
           </div>
