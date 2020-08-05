@@ -3,8 +3,8 @@
     <div class="hero py-5">
       <div class="container">
         <div class="row">
-          <div class="col-xl p-sm-0">
-            <div class="display-3 p-sm-0 text-center text-lg-left">
+          <div class="col-xl">
+            <div class="display-3 text-center text-lg-left">
               Helping Minecraft players feel secure.
             </div>
             <p class="description mt-3 text-center text-lg-left">
@@ -26,7 +26,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl mt-5 ml-xl-5 mt-xl-0 p-sm-0 text-center">
+          <div class="col-xl mt-5 ml-xl-5 mt-xl-0 text-center">
             <div class="mt-3 embed-responsive embed-responsive-16by9">
               <iframe
                 class="embed-responsive-item"

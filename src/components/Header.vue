@@ -2,10 +2,10 @@
   <div id="header" class="py-3">
     <nav class="container">
       <div class="row justify-content-between align-items-center">
-        <div class="col p-sm-0">
+        <div class="col">
           <a class="nav-title" href="/">Cam Alert</a>
         </div>
-        <div class="col-auto p-sm-0">
+        <div class="col-auto">
           <ul class="nav nav-pills">
             <li class="nav-item">
               <download-button />
