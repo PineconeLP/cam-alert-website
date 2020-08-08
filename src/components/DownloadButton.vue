@@ -5,12 +5,10 @@
 <script>
 export default {
   name: "DownloadButton",
-  setup() {
-    const downloadLink =
-      "https://github.com/PineconeLP/cam-alert/releases/download/v0.1.0/CamAlert-v0.1.0.jar";
-
+  data() {
     return {
-      downloadLink
+      downloadLink:
+        "https://github.com/PineconeLP/cam-alert/releases/download/v0.1.0/CamAlert-v0.1.0.jar"
     };
   }
 };

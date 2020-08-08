@@ -54,11 +54,9 @@ export default {
     Layout,
     DownloadButton
   },
-  setup() {
-    const demoVideoLink = "https://www.youtube.com/embed/gLEKmJ4tbEM";
-
+  data() {
     return {
-      demoVideoLink
+      demoVideoLink: "https://www.youtube.com/embed/gLEKmJ4tbEM"
     };
   }
 };
