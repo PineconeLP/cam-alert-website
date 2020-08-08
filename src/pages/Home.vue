@@ -18,11 +18,11 @@
                 <download-button class="hero-button flex-grow-1" />
               </div>
               <div class="col-sm-auto d-flex justify-content-center">
-                <a
+                <!-- <a
                   class="hero-button btn learn-more px-5 mt-2 mt-sm-0 ml-sm-2 flex-grow-1"
                   href="/about"
                   >Learn More</a
-                >
+                > -->
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@
             <div class="mt-3 embed-responsive embed-responsive-16by9">
               <iframe
                 class="embed-responsive-item"
-                src="https://www.youtube.com/embed/NpEaa2P7qZI"
+                :src="demoVideoLink"
                 frameborder="0"
                 controls="0"
                 allowfullscreen
@@ -53,6 +53,13 @@ export default {
   components: {
     Layout,
     DownloadButton
+  },
+  setup() {
+    const demoVideoLink = "https://www.youtube.com/embed/gLEKmJ4tbEM";
+
+    return {
+      demoVideoLink
+    };
   }
 };
 </script>
