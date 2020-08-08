@@ -1,11 +1,15 @@
 <template>
   <div id="header" class="py-3">
     <nav class="container">
-      <div class="row justify-content-between align-items-center">
-        <div class="col">
+      <div class="row align-items-center">
+        <div
+          class="col-sm justify-content-sm-start d-flex justify-content-center"
+        >
           <a class="nav-title" href="/">Cam Alert</a>
         </div>
-        <div class="col-auto">
+        <div
+          class="col-sm-auto justify-content-sm-start d-flex justify-content-center"
+        >
           <ul class="nav nav-pills">
             <li class="nav-item">
               <download-button />
