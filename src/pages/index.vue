@@ -54,6 +54,11 @@ export default {
     Layout,
     DownloadButton
   },
+  head() {
+    return {
+      title: "Cam Alert"
+    };
+  },
   data() {
     return {
       demoVideoLink: "https://www.youtube.com/embed/gLEKmJ4tbEM"
