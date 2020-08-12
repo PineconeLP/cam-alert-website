@@ -2,14 +2,10 @@
   <div id="header" class="py-3">
     <nav class="container">
       <div class="row align-items-center">
-        <div
-          class="col-sm justify-content-sm-start d-flex justify-content-center"
-        >
+        <div class="col-sm justify-content-sm-start d-flex justify-content-center">
           <a class="nav-title" href="/">Cam Alert</a>
         </div>
-        <div
-          class="col-sm-auto justify-content-sm-start d-flex justify-content-center"
-        >
+        <div class="col-sm-auto my-3 justify-content-sm-start d-flex justify-content-center">
           <ul class="nav nav-pills">
             <li class="nav-item">
               <download-button />
