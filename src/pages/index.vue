@@ -1,28 +1,24 @@
 <template>
   <Layout>
-    <div class="hero py-5">
+    <div class="hero py-4">
       <div class="container">
         <div class="row">
           <div class="col-xl">
-            <div class="display-3 text-center text-lg-left">
-              Helping Minecraft players feel secure.
-            </div>
+            <div class="display-3 text-center text-lg-left">Helping Minecraft players feel secure.</div>
             <p class="description mt-3 text-center text-lg-left">
               Allows players to setup security cameras and receive notifications
               about intruders.
             </p>
-            <div
-              class="mt-5 row justify-content-center justify-content-lg-start"
-            >
+            <div class="mt-5 row justify-content-center justify-content-lg-start">
               <div class="col-sm-auto d-flex justify-content-center">
                 <download-button class="hero-button flex-grow-1" />
               </div>
               <div class="col-sm-auto d-flex justify-content-center">
-                <!-- <a
-                  class="hero-button btn learn-more px-5 mt-2 mt-sm-0 ml-sm-2 flex-grow-1"
-                  href="/about"
-                  >Learn More</a
-                > -->
+                <a
+                  class="hero-button btn btn-light px-5 mt-3 mt-sm-0 ml-sm-2 flex-grow-1"
+                  :href="spigotLink"
+                  target="_blank"
+                >Learn More</a>
               </div>
             </div>
           </div>
@@ -61,7 +57,8 @@ export default {
   },
   data() {
     return {
-      demoVideoLink: "https://www.youtube.com/embed/gLEKmJ4tbEM"
+      demoVideoLink: "https://www.youtube.com/embed/gLEKmJ4tbEM",
+      spigotLink: "https://www.spigotmc.org/resources/cam-alert.82561/"
     };
   }
 };
