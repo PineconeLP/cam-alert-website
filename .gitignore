@@ -2,6 +2,7 @@
 node_modules
 dist
 .nuxt
+cam-alert-website
 
 # local env files
 .env.local

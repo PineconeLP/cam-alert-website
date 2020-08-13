@@ -1,7 +1,13 @@
 export default {
   target: "static",
   srcDir: "src/",
-  plugins: ["@/plugins/bootstrap-vue"],
+  router: {
+    base: "/cam-alert-website/"
+  },
+  generate: {
+    dir: "cam-alert-website"
+  },
+  modules: ["bootstrap-vue/nuxt"],
   head: {
     meta: [
       { charset: "utf-8" },

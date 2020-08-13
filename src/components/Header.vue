@@ -5,7 +5,7 @@
         <div class="col-sm d-flex justify-content-between">
           <a class="nav-title" href="/">Cam Alert</a>
           <b-navbar-toggle class="d-sm-none" target="menu">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" />
           </b-navbar-toggle>
         </div>
         <b-collapse id="menu" class="col-sm-auto d-sm-flex">
