@@ -3,7 +3,7 @@
     <nav class="container">
       <div class="row align-items-center navbar-dark">
         <div class="col-sm d-flex justify-content-between">
-          <a class="nav-title" href="/">Cam Alert</a>
+          <a class="nav-title" :href="homeLink">Cam Alert</a>
           <b-navbar-toggle class="d-sm-none" target="menu">
             <span class="navbar-toggler-icon" />
           </b-navbar-toggle>
@@ -29,6 +29,11 @@ export default {
   name: "Header",
   components: {
     DownloadButton
+  },
+  data() {
+    return {
+      homeLink: "/cam-alert-website"
+    };
   }
 };
 </script>
