@@ -68,7 +68,7 @@ export default {
 .hero {
   background-color: var(--color-primary);
   color: white;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .hero-button {
