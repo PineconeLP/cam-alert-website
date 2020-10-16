@@ -8,7 +8,7 @@ export default {
   data() {
     return {
       downloadLink:
-        "https://github.com/PineconeLP/cam-alert/releases/download/v0.1.0/CamAlert-v0.1.0.jar"
+        "https://github.com/PineconeLP/cam-alert/releases/download/v0.1.1/CamAlert-v0.1.1.jar"
     };
   }
 };
