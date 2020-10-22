@@ -11,7 +11,7 @@ export default {
     '@nuxtjs/google-analytics'
   ],
   googleAnalytics: {
-    id: 'G-NWSW189W5B'
+    id: 'UA-141575244-2'
   },
   modules: ["bootstrap-vue/nuxt"],
   head: {
