@@ -7,12 +7,6 @@ export default {
   generate: {
     dir: "cam-alert-website"
   },
-  buildModules: [
-    '@nuxtjs/google-analytics'
-  ],
-  googleAnalytics: {
-    id: 'UA-141575244-2'
-  },
   modules: ["bootstrap-vue/nuxt"],
   head: {
     meta: [
