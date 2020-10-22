@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cam-alert-website", {data:[],fetch:[],mutations:void 0});
