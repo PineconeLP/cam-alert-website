@@ -1,5 +1,5 @@
 <template>
-  <a class="btn download px-5" :href="downloadLink">Download</a>
+  <a class="btn download px-5" :href="downloadLink" @click="onDownload">Download</a>
 </template>
 
 <script>
@@ -7,9 +7,18 @@ export default {
   name: "DownloadButton",
   data() {
     return {
-      downloadLink:
-        "https://github.com/PineconeLP/cam-alert/releases/download/v0.1.1/CamAlert-v0.1.1.jar"
+      version: "0.1.1"
     };
+  },
+  computed: {
+    downloadLink() {
+      return `https://github.com/PineconeLP/cam-alert/releases/download/v${this.version}/CamAlert-v${this.version}.jar`
+    }
+  },
+  methods: {
+    onDownload() {
+      this.$gtag.event('cam_alert_download', { 'download_link': this.downloadLink, 'cam_alert_version': this.version });
+    }
   }
 };
 </script>

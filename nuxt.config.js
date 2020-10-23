@@ -8,6 +8,7 @@ export default {
     dir: "cam-alert-website"
   },
   modules: ["bootstrap-vue/nuxt"],
+  plugins: ['@/plugins/vue-gtag.js'],
   head: {
     meta: [
       { charset: "utf-8" },
